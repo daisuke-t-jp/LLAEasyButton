@@ -1,0 +1,18 @@
+language: objective-c
+osx_image: xcode10
+
+env:
+  global:
+    - PROJECT='LLASwiftyEasyButton.xcodeproj'
+    - IOS_SCHEME='LLASwiftyEasyButton'
+    - IOS_DESTINATION='platform=iOS Simulator,name=iPhone X'
+
+before_install:
+
+script:
+  - swift --version
+  - xcodebuild test -project "$PROJECT" -scheme "$IOS_SCHEME" -sdk iphonesimulator -destination "$IOS_DESTINATION" -configuration Debug
+
+branches:
+  only: 
+      - master
