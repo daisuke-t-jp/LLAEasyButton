@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 s.name         = "LLASwiftyEasyButton"
 s.version      = "1.0.1"
-s.summary      = "Easy button in swift."
+s.summary      = "LLASwiftyEasyButton is class for easy use of UIButton."
 s.homepage     = "https://github.com/daisuke-t-jp/LLASwiftyEasyButton"
 s.screenshots  = "https://raw.githubusercontent.com/daisuke-t-jp/LLASwiftyEasyButton/master/doc/header.png"
 s.license      = "MIT"

@@ -44,6 +44,8 @@
 		029D25AC21FA8E3A00A6480E /* LLASwiftyEasyButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLASwiftyEasyButtonTests.swift; sourceTree = "<group>"; };
 		029D25AE21FA8E3A00A6480E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		029D25B821FA8ECA00A6480E /* LLASwiftyEasyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLASwiftyEasyButton.swift; sourceTree = "<group>"; };
+		7ED0F1B221FCA11C0004D3CB /* LLASwiftyEasyButton.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = LLASwiftyEasyButton.podspec; sourceTree = "<group>"; };
+		7ED0F1B321FCA1240004D3CB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,8 @@
 		029D259421FA8E3900A6480E = {
 			isa = PBXGroup;
 			children = (
+				7ED0F1B221FCA11C0004D3CB /* LLASwiftyEasyButton.podspec */,
+				7ED0F1B321FCA1240004D3CB /* README.md */,
 				029D25A021FA8E3900A6480E /* LLASwiftyEasyButton */,
 				029D25AB21FA8E3A00A6480E /* LLASwiftyEasyButtonTests */,
 				0264678A21FAE2FF0071D66B /* Demo */,
