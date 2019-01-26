@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="51" translatesAutoresizingMaskIntoConstraints="NO" id="0eT-G4-ibE">
+                                <rect key="frame" x="139.5" y="138.5" width="96" height="390"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A0t-TD-dIk" customClass="LLASwiftyEasyButton" customModule="LLASwiftyEasyButton">
+                                        <rect key="frame" x="0.0" y="0.0" width="96" height="96"/>
+                                        <color key="backgroundColor" red="0.45090495930000002" green="0.7862809315" blue="0.92767086919999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="96" id="60n-Em-vPI"/>
+                                            <constraint firstAttribute="height" constant="96" id="rWB-HR-70I"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pw2-jh-AOg" customClass="LLASwiftyEasyButton" customModule="LLASwiftyEasyButton">
+                                        <rect key="frame" x="0.0" y="147" width="96" height="96"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GyE-eS-4KL">
+                                                <rect key="frame" x="0.0" y="0.0" width="96" height="96"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="GyE-eS-4KL" secondAttribute="height" multiplier="1:1" id="8Rq-df-2Q3"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.45090495930000002" green="0.7862809315" blue="0.92767086919999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="GyE-eS-4KL" firstAttribute="centerY" secondItem="pw2-jh-AOg" secondAttribute="centerY" id="11O-UA-sxA"/>
+                                            <constraint firstItem="GyE-eS-4KL" firstAttribute="width" secondItem="pw2-jh-AOg" secondAttribute="width" id="8dz-cu-BSl"/>
+                                            <constraint firstAttribute="width" constant="96" id="b14-oC-mew"/>
+                                            <constraint firstItem="GyE-eS-4KL" firstAttribute="height" secondItem="pw2-jh-AOg" secondAttribute="height" id="bqh-hx-3dd"/>
+                                            <constraint firstAttribute="height" constant="96" id="dBW-5i-zS4"/>
+                                            <constraint firstItem="GyE-eS-4KL" firstAttribute="centerX" secondItem="pw2-jh-AOg" secondAttribute="centerX" id="zjF-sJ-MAe"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3vI-TQ-mIq" customClass="LLASwiftyEasyButton" customModule="LLASwiftyEasyButton">
+                                        <rect key="frame" x="0.0" y="294" width="96" height="96"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UVa-ro-B2c">
+                                                <rect key="frame" x="0.0" y="0.0" width="96" height="96"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="UVa-ro-B2c" secondAttribute="height" multiplier="1:1" id="ixg-eh-ofE"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.45090495930000002" green="0.7862809315" blue="0.92767086919999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="UVa-ro-B2c" firstAttribute="centerY" secondItem="3vI-TQ-mIq" secondAttribute="centerY" id="38C-iN-3Vo"/>
+                                            <constraint firstAttribute="height" constant="96" id="61b-rh-OJp"/>
+                                            <constraint firstItem="UVa-ro-B2c" firstAttribute="width" secondItem="3vI-TQ-mIq" secondAttribute="width" id="eTd-wd-fK6"/>
+                                            <constraint firstItem="UVa-ro-B2c" firstAttribute="height" secondItem="3vI-TQ-mIq" secondAttribute="height" id="flN-em-vVA"/>
+                                            <constraint firstAttribute="width" constant="96" id="jj2-Ra-vqe"/>
+                                            <constraint firstItem="UVa-ro-B2c" firstAttribute="centerX" secondItem="3vI-TQ-mIq" secondAttribute="centerX" id="uQr-Pd-GKH"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bDz-hD-jNt">
+                                <rect key="frame" x="16" y="60" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0eT-G4-ibE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Eo5-Z7-O7O"/>
+                            <constraint firstItem="0eT-G4-ibE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fRJ-VQ-Fif"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="button1" destination="A0t-TD-dIk" id="lDq-YA-Rp0"/>
+                        <outlet property="button2" destination="pw2-jh-AOg" id="alf-Ct-7nE"/>
+                        <outlet property="button3" destination="3vI-TQ-mIq" id="2sr-8N-2k0"/>
+                        <outlet property="sw" destination="bDz-hD-jNt" id="e9m-Zc-vra"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
