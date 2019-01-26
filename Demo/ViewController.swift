@@ -39,8 +39,9 @@ class ViewController: UIViewController {
 		button3?.colorMapEnable = [.normal: UIColor.init(red: 129/255, green: 212/255, blue: 250/255, alpha: 1.0),
 								   .selected: UIColor.init(red: 3/255, green: 169/255, blue: 244/255, alpha: 1.0)]
 		button3?.colorMapDisable = UIColor.init(red: 100/255, green: 100/255, blue: 100/255, alpha: 1.0)
-		button3?.subviewLabel()?.text = "click"
-		button3?.appendObject = ["💰🍒７", "７７🍉", "🍒🍒🍉", "🍒🔔💰", "🔔💰🍒", "🔔🍒🔔", "７７７"]
+		button3?.subviewLabel()?.text = "Let's 🎰"
+		button3?.appendObject = ["💰🍒🍇", "🍇🍇🍉", "🍒🍒🍉", "🍒🔔💰", "🔔💰🍒", "🔔🍒🔔", "🍇🍇🍇"]
+		button3?.addTarget(self, action: #selector(buttonAction(_:)), for: .touchUpInside)
 
 		
 		sw!.addTarget(self, action: #selector(switchAction(_ :)), for: .valueChanged)
@@ -49,6 +50,18 @@ class ViewController: UIViewController {
 	
 	@objc private func switchAction(_ sender: UISwitch)
 	{
+		let alertTitle = [false:"to disable", true:"to enable"][sender.isOn]
+		let alert = UIAlertController(title: alertTitle,
+									  message: "",
+									  preferredStyle: UIAlertController.Style.alert)
+
+		let alertAction = UIAlertAction(title: "OK",
+										style: UIAlertAction.Style.default,
+										handler:nil)
+		alert.addAction(alertAction)
+		present(alert, animated: true, completion: nil)
+
+		
 		button1!.isEnabled = sender.isOn
 		button2!.isEnabled = sender.isOn
 		button3!.isEnabled = sender.isOn

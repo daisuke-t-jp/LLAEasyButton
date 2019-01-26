@@ -6,15 +6,6 @@
 //  Copyright © 2019 LLASwiftyEasyButton. All rights reserved.
 //
 
-// TODO: README
-// TODO: Demo
-// TODO: podspec
-// TOOD: cocoapod update
-// TODO: create repo
-// TODO: header image
-// TODO: gitignore
-// TODO: remove private information
-// TODO: travis
 
 
 import Foundation
