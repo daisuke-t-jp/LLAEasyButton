@@ -9,11 +9,18 @@
 <img src="https://github.com/daisuke-t-jp/LLASwiftyEasyButton/blob/master/doc/demo.gif" width="250"></br>
 
 
-### Install
-#### Carthage
+# Concept
+
+*LLASwiftyEasyButton* is class for easy use of UIButton.  
+The class can set normal/selected color.
+Also easy use button's label.
+
+
+# Install
+### Carthage
 `github "daisuke-t-jp/LLASwiftyEasyButton"`
 
-#### CocoaPods
+### CocoaPods
 ```
 platform :ios, '10.0'
 use_frameworks!
@@ -24,27 +31,20 @@ end
 ```
 
 
-### Concept
-
-*LLASwiftyEasyButton* is class for easy use of UIButton.  
-The class can set normal/selected color.
-Also easy use button's label.
-
-
-### Hot to use
-#### Set normal/selected color on enable state
+# Usage
+### 1. Set normal/selected color on enable state
 ``` swift
 button?.colorMapEnable = [.normal: UIColor.init(red: 239/255, green: 154/255, blue: 154/255, alpha: 1.0),
                         .selected: UIColor.init(red: 244/255, green: 67/255, blue: 54/255, alpha: 1.0)]
 ```
 
-#### Set normal/selected color on disable state
+### 2. Set normal/selected color on disable state
 ``` swift
 button?.colorMapDisable = [.normal: UIColor.init(red: 239/255, green: 154/255, blue: 154/255, alpha: 1.0),
                         .selected: UIColor.init(red: 244/255, green: 67/255, blue: 54/255, alpha: 1.0)]
 ```
 
-#### Set button's label set text
+### 3. Set button's label text
 ``` swift
 button?.subviewLabel()?.text = "button"
 button?.subviewLabel()?.textColor = UIColor.blue
