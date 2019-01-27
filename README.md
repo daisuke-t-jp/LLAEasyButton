@@ -31,28 +31,34 @@ end
 ```
 
 
-# Works at InterfaceBuilder
-<img src="https://github.com/daisuke-t-jp/LLASwiftyEasyButton/blob/master/doc/IB-setup0.png" width="250"></br>
-<img src="https://github.com/daisuke-t-jp/LLASwiftyEasyButton/blob/master/doc/IB-setup1.png" width="250"></br>
-Open InterfaceBuider.  
+# Works at Interface Builder
+### Set view
+<img src="https://github.com/daisuke-t-jp/LLASwiftyEasyButton/blob/master/doc/IB-setup0.png" width="600"></br>
+<img src="https://github.com/daisuke-t-jp/LLASwiftyEasyButton/blob/master/doc/IB-setup1.png" width="600"></br>
+Open Interface Builder.  
 Select UIView and put to view.  
-(Not UIButton)  
-  
-<img src="https://github.com/daisuke-t-jp/LLASwiftyEasyButton/blob/master/doc/IB-setup2.png" width="250"></br>
-Rename UIView’s class name to LLASwiftyEasyButton.  
-  
-<img src="https://github.com/daisuke-t-jp/LLASwiftyEasyButton/blob/master/doc/IB-setup3.png" width="250"></br>
-<img src="https://github.com/daisuke-t-jp/LLASwiftyEasyButton/blob/master/doc/IB-setup4.png" width="250"></br>
+(**Not UIButton**)
+
+### Change class
+<img src="https://github.com/daisuke-t-jp/LLASwiftyEasyButton/blob/master/doc/IB-setup2.png" width="600"></br>
+Rename UIView’s class name to *LLASwiftyEasyButton*.  
+
+### Add Label (If you need)
+<img src="https://github.com/daisuke-t-jp/LLASwiftyEasyButton/blob/master/doc/IB-setup3.png" width="600"></br>
+<img src="https://github.com/daisuke-t-jp/LLASwiftyEasyButton/blob/master/doc/IB-setup4.png" width="600"></br>
 If you need to label.  
-Put UILabel to LLASwityEasyButton’s subview hierarchy.  
-  
-<img src="https://github.com/daisuke-t-jp/LLASwiftyEasyButton/blob/master/doc/IB-setup5.png" width="250"></br>
+Put UILabel to LLASwityEasyButton’s subview hierarchy.
+
+### Set IBOutlet
+<img src="https://github.com/daisuke-t-jp/LLASwiftyEasyButton/blob/master/doc/IB-setup5.png" width="600"></br>
 You set LLASwityEasyButton IBOutlet on swift code.  
-  
-<img src="https://github.com/daisuke-t-jp/LLASwiftyEasyButton/blob/master/doc/IB-setup6.png" width="250"></br>
-<img src="https://github.com/daisuke-t-jp/LLASwiftyEasyButton/blob/master/doc/IB-setup7.png" width="250"></br>
-<img src="https://github.com/daisuke-t-jp/LLASwiftyEasyButton/blob/master/doc/IB-setup8.png" width="250"></br>
-InterfaceBuilder object connet to IBOutlet.
+
+### Connect IBOutlet
+<img src="https://github.com/daisuke-t-jp/LLASwiftyEasyButton/blob/master/doc/IB-setup6.png" width="600"></br>
+<img src="https://github.com/daisuke-t-jp/LLASwiftyEasyButton/blob/master/doc/IB-setup7.png" width="600"></br>
+<img src="https://github.com/daisuke-t-jp/LLASwiftyEasyButton/blob/master/doc/IB-setup8.png" width="600"></br>
+Interface Builder object connet to IBOutlet.
+
 
 
 # Usage
