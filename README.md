@@ -31,6 +31,36 @@ end
 ```
 
 
+# Works at Interface Builder
+### 1. Set view
+<img src="https://github.com/daisuke-t-jp/LLASwiftyEasyButton/blob/master/doc/IB-setup0.png" width="600"></br>
+<img src="https://github.com/daisuke-t-jp/LLASwiftyEasyButton/blob/master/doc/IB-setup1.png" width="600"></br>
+Open Interface Builder.  
+Select UIView and put to view.  
+(**Not UIButton**)
+
+### 2. Change class
+<img src="https://github.com/daisuke-t-jp/LLASwiftyEasyButton/blob/master/doc/IB-setup2.png" width="600"></br>
+Rename UIView’s class name to *LLASwiftyEasyButton*.  
+
+### 3. Add Label (If you need)
+<img src="https://github.com/daisuke-t-jp/LLASwiftyEasyButton/blob/master/doc/IB-setup3.png" width="600"></br>
+<img src="https://github.com/daisuke-t-jp/LLASwiftyEasyButton/blob/master/doc/IB-setup4.png" width="600"></br>
+If you need to label.  
+Put UILabel to LLASwityEasyButton’s subview hierarchy.
+
+### 4. Set IBOutlet
+<img src="https://github.com/daisuke-t-jp/LLASwiftyEasyButton/blob/master/doc/IB-setup5.png" width="600"></br>
+You set LLASwityEasyButton IBOutlet on swift code.  
+
+### 5. Connect IBOutlet
+<img src="https://github.com/daisuke-t-jp/LLASwiftyEasyButton/blob/master/doc/IB-setup6.png" width="600"></br>
+<img src="https://github.com/daisuke-t-jp/LLASwiftyEasyButton/blob/master/doc/IB-setup7.png" width="600"></br>
+<img src="https://github.com/daisuke-t-jp/LLASwiftyEasyButton/blob/master/doc/IB-setup8.png" width="600"></br>
+Interface Builder object connet to IBOutlet.
+
+
+
 # Usage
 ### 1. Set normal/selected color on enable state
 ``` swift
