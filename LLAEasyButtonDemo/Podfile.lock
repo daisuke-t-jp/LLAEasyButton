@@ -1,5 +1,5 @@
 PODS:
-  - LLAEasyButton (1.0.3)
+  - LLAEasyButton (1.0.4)
 
 DEPENDENCIES:
   - LLAEasyButton (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LLAEasyButton: 6ef9ac2880310ff174394b0c18d98302fc608c2a
+  LLAEasyButton: 3c0c9894321883a226c6a417dce166e85add7fd4
 
 PODFILE CHECKSUM: cfd807e67e46775093ccd96985251113cd3950d5
 
