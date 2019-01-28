@@ -11,6 +11,5 @@ s.ios.deployment_target = "10.0"
 s.platform       = :ios, "10.0"
 s.swift_version  = "4.2"
 s.source       = { :git => "https://github.com/daisuke-t-jp/LLASwiftyEasyButton.git", :tag => "1.0.3" }
-s.source_files  = "LLASwiftyEasyButton"
-s.source_files  = 'LLASwiftyEasyButton/*.{h,swift}'
+s.source_files  = 'LLASwiftyEasyButton/LLASwiftyEasyButton/*.{h,swift}'
 end

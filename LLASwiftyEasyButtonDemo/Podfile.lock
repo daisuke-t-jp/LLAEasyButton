@@ -1,0 +1,16 @@
+PODS:
+  - LLASwiftyEasyButton (1.0.3)
+
+DEPENDENCIES:
+  - LLASwiftyEasyButton (from `../`)
+
+EXTERNAL SOURCES:
+  LLASwiftyEasyButton:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LLASwiftyEasyButton: f6137d6f9e9f2df7ac785833cd44abe0c3d62f82
+
+PODFILE CHECKSUM: 3cde43dbc52fbe0de2bbead0bb0c684675b2a96b
+
+COCOAPODS: 1.4.0

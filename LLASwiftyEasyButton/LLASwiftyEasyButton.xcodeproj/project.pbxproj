@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0264678C21FAE2FF0071D66B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0264678B21FAE2FF0071D66B /* AppDelegate.swift */; };
-		0264678E21FAE2FF0071D66B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0264678D21FAE2FF0071D66B /* ViewController.swift */; };
-		0264679121FAE2FF0071D66B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0264678F21FAE2FF0071D66B /* Main.storyboard */; };
-		0264679321FAE3000071D66B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0264679221FAE3000071D66B /* Assets.xcassets */; };
-		0264679621FAE3000071D66B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0264679421FAE3000071D66B /* LaunchScreen.storyboard */; };
-		026467AA21FAE7460071D66B /* LLASwiftyEasyButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029D259E21FA8E3900A6480E /* LLASwiftyEasyButton.framework */; };
 		029D25A821FA8E3A00A6480E /* LLASwiftyEasyButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029D259E21FA8E3900A6480E /* LLASwiftyEasyButton.framework */; };
 		029D25AD21FA8E3A00A6480E /* LLASwiftyEasyButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029D25AC21FA8E3A00A6480E /* LLASwiftyEasyButtonTests.swift */; };
 		029D25AF21FA8E3A00A6480E /* LLASwiftyEasyButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 029D25A121FA8E3900A6480E /* LLASwiftyEasyButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,13 +24,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0264678921FAE2FF0071D66B /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0264678B21FAE2FF0071D66B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0264678D21FAE2FF0071D66B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0264679021FAE2FF0071D66B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0264679221FAE3000071D66B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0264679521FAE3000071D66B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0264679721FAE3000071D66B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		029D259E21FA8E3900A6480E /* LLASwiftyEasyButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LLASwiftyEasyButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		029D25A121FA8E3900A6480E /* LLASwiftyEasyButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLASwiftyEasyButton.h; sourceTree = "<group>"; };
 		029D25A221FA8E3900A6480E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,19 +31,9 @@
 		029D25AC21FA8E3A00A6480E /* LLASwiftyEasyButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLASwiftyEasyButtonTests.swift; sourceTree = "<group>"; };
 		029D25AE21FA8E3A00A6480E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		029D25B821FA8ECA00A6480E /* LLASwiftyEasyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLASwiftyEasyButton.swift; sourceTree = "<group>"; };
-		7ED0F1B221FCA11C0004D3CB /* LLASwiftyEasyButton.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = LLASwiftyEasyButton.podspec; sourceTree = "<group>"; };
-		7ED0F1B321FCA1240004D3CB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0264678621FAE2FF0071D66B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				026467AA21FAE7460071D66B /* LLASwiftyEasyButton.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		029D259B21FA8E3900A6480E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -75,19 +52,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0264678A21FAE2FF0071D66B /* Demo */ = {
-			isa = PBXGroup;
-			children = (
-				0264678B21FAE2FF0071D66B /* AppDelegate.swift */,
-				0264678D21FAE2FF0071D66B /* ViewController.swift */,
-				0264678F21FAE2FF0071D66B /* Main.storyboard */,
-				0264679221FAE3000071D66B /* Assets.xcassets */,
-				0264679421FAE3000071D66B /* LaunchScreen.storyboard */,
-				0264679721FAE3000071D66B /* Info.plist */,
-			);
-			path = Demo;
-			sourceTree = "<group>";
-		};
 		026467A921FAE7460071D66B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,11 +62,8 @@
 		029D259421FA8E3900A6480E = {
 			isa = PBXGroup;
 			children = (
-				7ED0F1B221FCA11C0004D3CB /* LLASwiftyEasyButton.podspec */,
-				7ED0F1B321FCA1240004D3CB /* README.md */,
 				029D25A021FA8E3900A6480E /* LLASwiftyEasyButton */,
 				029D25AB21FA8E3A00A6480E /* LLASwiftyEasyButtonTests */,
-				0264678A21FAE2FF0071D66B /* Demo */,
 				029D259F21FA8E3900A6480E /* Products */,
 				026467A921FAE7460071D66B /* Frameworks */,
 			);
@@ -113,7 +74,6 @@
 			children = (
 				029D259E21FA8E3900A6480E /* LLASwiftyEasyButton.framework */,
 				029D25A721FA8E3A00A6480E /* LLASwiftyEasyButtonTests.xctest */,
-				0264678921FAE2FF0071D66B /* Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,23 +111,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0264678821FAE2FF0071D66B /* Demo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 026467A721FAE3000071D66B /* Build configuration list for PBXNativeTarget "Demo" */;
-			buildPhases = (
-				0264678521FAE2FF0071D66B /* Sources */,
-				0264678621FAE2FF0071D66B /* Frameworks */,
-				0264678721FAE2FF0071D66B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Demo;
-			productName = Demo;
-			productReference = 0264678921FAE2FF0071D66B /* Demo.app */;
-			productType = "com.apple.product-type.application";
-		};
 		029D259D21FA8E3900A6480E /* LLASwiftyEasyButton */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 029D25B221FA8E3A00A6480E /* Build configuration list for PBXNativeTarget "LLASwiftyEasyButton" */;
@@ -214,9 +157,6 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = LLASwiftyPlainButton;
 				TargetAttributes = {
-					0264678821FAE2FF0071D66B = {
-						CreatedOnToolsVersion = 10.1;
-					};
 					029D259D21FA8E3900A6480E = {
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1010;
@@ -241,22 +181,11 @@
 			targets = (
 				029D259D21FA8E3900A6480E /* LLASwiftyEasyButton */,
 				029D25A621FA8E3A00A6480E /* LLASwiftyEasyButtonTests */,
-				0264678821FAE2FF0071D66B /* Demo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0264678721FAE2FF0071D66B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0264679621FAE3000071D66B /* LaunchScreen.storyboard in Resources */,
-				0264679321FAE3000071D66B /* Assets.xcassets in Resources */,
-				0264679121FAE2FF0071D66B /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		029D259C21FA8E3900A6480E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -274,15 +203,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0264678521FAE2FF0071D66B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0264678E21FAE2FF0071D66B /* ViewController.swift in Sources */,
-				0264678C21FAE2FF0071D66B /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		029D259A21FA8E3900A6480E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -309,62 +229,7 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		0264678F21FAE2FF0071D66B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0264679021FAE2FF0071D66B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0264679421FAE3000071D66B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0264679521FAE3000071D66B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		026467A321FAE3000071D66B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.LLASwiftyPlainButton.Demo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		026467A421FAE3000071D66B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.LLASwiftyPlainButton.Demo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		029D25B021FA8E3A00A6480E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -577,15 +442,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		026467A721FAE3000071D66B /* Build configuration list for PBXNativeTarget "Demo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				026467A321FAE3000071D66B /* Debug */,
-				026467A421FAE3000071D66B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		029D259821FA8E3900A6480E /* Build configuration list for PBXProject "LLASwiftyEasyButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

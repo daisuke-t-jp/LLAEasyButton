@@ -3,7 +3,7 @@ osx_image: xcode10
 
 env:
   global:
-    - PROJECT='LLASwiftyEasyButton.xcodeproj'
+    - PROJECT='LLASwiftyEasyButton/LLASwiftyEasyButton.xcodeproj'
     - IOS_SCHEME='LLASwiftyEasyButton'
     - IOS_DESTINATION='platform=iOS Simulator,name=iPhone X'
 
