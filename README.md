@@ -47,11 +47,11 @@ Rename UIView’s class name to *LLAEasyButton*.
 <img src="https://github.com/daisuke-t-jp/LLAEasyButton/blob/master/doc/IB-setup3.png" width="600"></br>
 <img src="https://github.com/daisuke-t-jp/LLAEasyButton/blob/master/doc/IB-setup4.png" width="600"></br>
 If you need to label.  
-Put UILabel to LLASwityEasyButton’s subview hierarchy.
+Put UILabel to LLAEasyButton’s subview hierarchy.
 
 ### 4. Set IBOutlet
 <img src="https://github.com/daisuke-t-jp/LLAEasyButton/blob/master/doc/IB-setup5.png" width="600"></br>
-You set LLASwityEasyButton IBOutlet on swift code.  
+You set LLAEasyButton IBOutlet on swift code.  
 
 ### 5. Connect IBOutlet
 <img src="https://github.com/daisuke-t-jp/LLAEasyButton/blob/master/doc/IB-setup6.png" width="600"></br>
