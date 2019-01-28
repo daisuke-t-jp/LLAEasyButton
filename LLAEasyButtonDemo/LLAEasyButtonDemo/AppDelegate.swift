@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  LLASwiftyEasyButtonDemo
+//  LLAEasyButtonDemo
 //
 //  Created by Daisuke T on 2019/01/28.
-//  Copyright © 2019 LLASwiftyEasyButtonDemo. All rights reserved.
+//  Copyright © 2019 LLAEasyButtonDemo. All rights reserved.
 //
 
 import UIKit

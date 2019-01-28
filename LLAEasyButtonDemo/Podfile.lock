@@ -1,0 +1,16 @@
+PODS:
+  - LLAEasyButton (1.0.3)
+
+DEPENDENCIES:
+  - LLAEasyButton (from `../`)
+
+EXTERNAL SOURCES:
+  LLAEasyButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LLAEasyButton: 6ef9ac2880310ff174394b0c18d98302fc608c2a
+
+PODFILE CHECKSUM: cfd807e67e46775093ccd96985251113cd3950d5
+
+COCOAPODS: 1.5.3

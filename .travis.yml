@@ -3,8 +3,8 @@ osx_image: xcode10
 
 env:
   global:
-    - PROJECT='LLASwiftyEasyButton/LLASwiftyEasyButton.xcodeproj'
-    - IOS_SCHEME='LLASwiftyEasyButton'
+    - PROJECT='LLAEasyButton/LLAEasyButton.xcodeproj'
+    - IOS_SCHEME='LLAEasyButton'
     - IOS_DESTINATION='platform=iOS Simulator,name=iPhone X'
 
 before_install:

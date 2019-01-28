@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Demo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LLAEasyButtonDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -21,7 +21,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="51" translatesAutoresizingMaskIntoConstraints="NO" id="0eT-G4-ibE">
                                 <rect key="frame" x="139.5" y="138.5" width="96" height="390"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A0t-TD-dIk" customClass="LLASwiftyEasyButton" customModule="LLASwiftyEasyButton">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A0t-TD-dIk" customClass="LLAEasyButton" customModule="LLAEasyButton">
                                         <rect key="frame" x="0.0" y="0.0" width="96" height="96"/>
                                         <color key="backgroundColor" red="0.45090495930000002" green="0.7862809315" blue="0.92767086919999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -29,7 +29,7 @@
                                             <constraint firstAttribute="height" constant="96" id="rWB-HR-70I"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pw2-jh-AOg" customClass="LLASwiftyEasyButton" customModule="LLASwiftyEasyButton">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pw2-jh-AOg" customClass="LLAEasyButton" customModule="LLAEasyButton">
                                         <rect key="frame" x="0.0" y="147" width="96" height="96"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GyE-eS-4KL">
@@ -52,7 +52,7 @@
                                             <constraint firstItem="GyE-eS-4KL" firstAttribute="centerX" secondItem="pw2-jh-AOg" secondAttribute="centerX" id="zjF-sJ-MAe"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3vI-TQ-mIq" customClass="LLASwiftyEasyButton" customModule="LLASwiftyEasyButton">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3vI-TQ-mIq" customClass="LLAEasyButton" customModule="LLAEasyButton">
                                         <rect key="frame" x="0.0" y="294" width="96" height="96"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UVa-ro-B2c">

@@ -12,20 +12,20 @@
 		02C392CE21FEEE5800BF2EB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02C392CC21FEEE5800BF2EB9 /* Main.storyboard */; };
 		02C392D021FEEE5900BF2EB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C392CF21FEEE5900BF2EB9 /* Assets.xcassets */; };
 		02C392D321FEEE5900BF2EB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02C392D121FEEE5900BF2EB9 /* LaunchScreen.storyboard */; };
-		EFE299C20D0B3969DB04792C /* Pods_LLASwiftyEasyButtonDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D925298894C8B6C07E17D125 /* Pods_LLASwiftyEasyButtonDemo.framework */; };
+		EFE299C20D0B3969DB04792C /* Pods_LLAEasyButtonDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D925298894C8B6C07E17D125 /* Pods_LLAEasyButtonDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		02C392C521FEEE5800BF2EB9 /* LLASwiftyEasyButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLASwiftyEasyButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02C392C521FEEE5800BF2EB9 /* LLAEasyButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLAEasyButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02C392C821FEEE5800BF2EB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02C392CA21FEEE5800BF2EB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		02C392CD21FEEE5800BF2EB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02C392CF21FEEE5900BF2EB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02C392D221FEEE5900BF2EB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02C392D421FEEE5900BF2EB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0459D4149E0F859F8910FC94 /* Pods-LLASwiftyEasyButtonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLASwiftyEasyButtonDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLASwiftyEasyButtonDemo/Pods-LLASwiftyEasyButtonDemo.release.xcconfig"; sourceTree = "<group>"; };
-		D925298894C8B6C07E17D125 /* Pods_LLASwiftyEasyButtonDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLASwiftyEasyButtonDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E002C58E95F3DAB5074B3033 /* Pods-LLASwiftyEasyButtonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLASwiftyEasyButtonDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLASwiftyEasyButtonDemo/Pods-LLASwiftyEasyButtonDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		0459D4149E0F859F8910FC94 /* Pods-LLAEasyButtonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLAEasyButtonDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLAEasyButtonDemo/Pods-LLAEasyButtonDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D925298894C8B6C07E17D125 /* Pods_LLAEasyButtonDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLAEasyButtonDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E002C58E95F3DAB5074B3033 /* Pods-LLAEasyButtonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLAEasyButtonDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLAEasyButtonDemo/Pods-LLAEasyButtonDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFE299C20D0B3969DB04792C /* Pods_LLASwiftyEasyButtonDemo.framework in Frameworks */,
+				EFE299C20D0B3969DB04792C /* Pods_LLAEasyButtonDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,7 +43,7 @@
 		02C392BC21FEEE5800BF2EB9 = {
 			isa = PBXGroup;
 			children = (
-				02C392C721FEEE5800BF2EB9 /* LLASwiftyEasyButtonDemo */,
+				02C392C721FEEE5800BF2EB9 /* LLAEasyButtonDemo */,
 				02C392C621FEEE5800BF2EB9 /* Products */,
 				C948A382DBF9317DABF7AE79 /* Pods */,
 				A22506256A8C2C1EE29E7186 /* Frameworks */,
@@ -53,12 +53,12 @@
 		02C392C621FEEE5800BF2EB9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				02C392C521FEEE5800BF2EB9 /* LLASwiftyEasyButtonDemo.app */,
+				02C392C521FEEE5800BF2EB9 /* LLAEasyButtonDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		02C392C721FEEE5800BF2EB9 /* LLASwiftyEasyButtonDemo */ = {
+		02C392C721FEEE5800BF2EB9 /* LLAEasyButtonDemo */ = {
 			isa = PBXGroup;
 			children = (
 				02C392C821FEEE5800BF2EB9 /* AppDelegate.swift */,
@@ -68,13 +68,13 @@
 				02C392D121FEEE5900BF2EB9 /* LaunchScreen.storyboard */,
 				02C392D421FEEE5900BF2EB9 /* Info.plist */,
 			);
-			path = LLASwiftyEasyButtonDemo;
+			path = LLAEasyButtonDemo;
 			sourceTree = "<group>";
 		};
 		A22506256A8C2C1EE29E7186 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D925298894C8B6C07E17D125 /* Pods_LLASwiftyEasyButtonDemo.framework */,
+				D925298894C8B6C07E17D125 /* Pods_LLAEasyButtonDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -82,8 +82,8 @@
 		C948A382DBF9317DABF7AE79 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E002C58E95F3DAB5074B3033 /* Pods-LLASwiftyEasyButtonDemo.debug.xcconfig */,
-				0459D4149E0F859F8910FC94 /* Pods-LLASwiftyEasyButtonDemo.release.xcconfig */,
+				E002C58E95F3DAB5074B3033 /* Pods-LLAEasyButtonDemo.debug.xcconfig */,
+				0459D4149E0F859F8910FC94 /* Pods-LLAEasyButtonDemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -91,24 +91,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		02C392C421FEEE5800BF2EB9 /* LLASwiftyEasyButtonDemo */ = {
+		02C392C421FEEE5800BF2EB9 /* LLAEasyButtonDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 02C392D721FEEE5900BF2EB9 /* Build configuration list for PBXNativeTarget "LLASwiftyEasyButtonDemo" */;
+			buildConfigurationList = 02C392D721FEEE5900BF2EB9 /* Build configuration list for PBXNativeTarget "LLAEasyButtonDemo" */;
 			buildPhases = (
 				895F6FAA1DBC9FD1D8B328EC /* [CP] Check Pods Manifest.lock */,
 				02C392C121FEEE5800BF2EB9 /* Sources */,
 				02C392C221FEEE5800BF2EB9 /* Frameworks */,
 				02C392C321FEEE5800BF2EB9 /* Resources */,
-				08228B79DDA2B74B6132E5A6 /* [CP] Embed Pods Frameworks */,
-				AAD2EC7CD368060E165A2671 /* [CP] Copy Pods Resources */,
+				C94F9F5E1C6BA6F4442753EB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LLASwiftyEasyButtonDemo;
-			productName = LLASwiftyEasyButtonDemo;
-			productReference = 02C392C521FEEE5800BF2EB9 /* LLASwiftyEasyButtonDemo.app */;
+			name = LLAEasyButtonDemo;
+			productName = LLAEasyButtonDemo;
+			productReference = 02C392C521FEEE5800BF2EB9 /* LLAEasyButtonDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -119,14 +118,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = LLASwiftyEasyButtonDemo;
+				ORGANIZATIONNAME = LLAEasyButtonDemo;
 				TargetAttributes = {
 					02C392C421FEEE5800BF2EB9 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 02C392C021FEEE5800BF2EB9 /* Build configuration list for PBXProject "LLASwiftyEasyButtonDemo" */;
+			buildConfigurationList = 02C392C021FEEE5800BF2EB9 /* Build configuration list for PBXProject "LLAEasyButtonDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -139,7 +138,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				02C392C421FEEE5800BF2EB9 /* LLASwiftyEasyButtonDemo */,
+				02C392C421FEEE5800BF2EB9 /* LLAEasyButtonDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -158,24 +157,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		08228B79DDA2B74B6132E5A6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-LLASwiftyEasyButtonDemo/Pods-LLASwiftyEasyButtonDemo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/LLASwiftyEasyButton/LLASwiftyEasyButton.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LLASwiftyEasyButton.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLASwiftyEasyButtonDemo/Pods-LLASwiftyEasyButtonDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		895F6FAA1DBC9FD1D8B328EC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -187,26 +168,33 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LLASwiftyEasyButtonDemo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-LLAEasyButtonDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AAD2EC7CD368060E165A2671 /* [CP] Copy Pods Resources */ = {
+		C94F9F5E1C6BA6F4442753EB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "[CP] Copy Pods Resources";
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LLAEasyButtonDemo/Pods-LLAEasyButtonDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LLAEasyButton/LLAEasyButton.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LLAEasyButton.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLASwiftyEasyButtonDemo/Pods-LLASwiftyEasyButtonDemo-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLAEasyButtonDemo/Pods-LLAEasyButtonDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -361,16 +349,16 @@
 		};
 		02C392D821FEEE5900BF2EB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E002C58E95F3DAB5074B3033 /* Pods-LLASwiftyEasyButtonDemo.debug.xcconfig */;
+			baseConfigurationReference = E002C58E95F3DAB5074B3033 /* Pods-LLAEasyButtonDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LLASwiftyEasyButtonDemo/Info.plist;
+				INFOPLIST_FILE = LLAEasyButtonDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.LLASwiftyEasyButtonDemo.LLASwiftyEasyButtonDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LLAEasyButtonDemo.LLAEasyButtonDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -379,16 +367,16 @@
 		};
 		02C392D921FEEE5900BF2EB9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0459D4149E0F859F8910FC94 /* Pods-LLASwiftyEasyButtonDemo.release.xcconfig */;
+			baseConfigurationReference = 0459D4149E0F859F8910FC94 /* Pods-LLAEasyButtonDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LLASwiftyEasyButtonDemo/Info.plist;
+				INFOPLIST_FILE = LLAEasyButtonDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.LLASwiftyEasyButtonDemo.LLASwiftyEasyButtonDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LLAEasyButtonDemo.LLAEasyButtonDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -398,7 +386,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		02C392C021FEEE5800BF2EB9 /* Build configuration list for PBXProject "LLASwiftyEasyButtonDemo" */ = {
+		02C392C021FEEE5800BF2EB9 /* Build configuration list for PBXProject "LLAEasyButtonDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				02C392D521FEEE5900BF2EB9 /* Debug */,
@@ -407,7 +395,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		02C392D721FEEE5900BF2EB9 /* Build configuration list for PBXNativeTarget "LLASwiftyEasyButtonDemo" */ = {
+		02C392D721FEEE5900BF2EB9 /* Build configuration list for PBXNativeTarget "LLAEasyButtonDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				02C392D821FEEE5900BF2EB9 /* Debug */,

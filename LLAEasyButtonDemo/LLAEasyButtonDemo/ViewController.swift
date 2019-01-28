@@ -3,21 +3,21 @@
 //  Demo
 //
 //  Created by Daisuke T on 2019/01/25.
-//  Copyright © 2019 LLASwiftyPlainButton. All rights reserved.
+//  Copyright © 2019 LLAEasyButton. All rights reserved.
 //
 
 import UIKit
 
-import LLASwiftyEasyButton
+import LLAEasyButton
 
 
 
 class ViewController: UIViewController {
 
 	@IBOutlet weak var sw: UISwitch?
-	@IBOutlet weak var button1: LLASwiftyEasyButton?
-	@IBOutlet weak var button2: LLASwiftyEasyButton?
-	@IBOutlet weak var button3: LLASwiftyEasyButton?
+	@IBOutlet weak var button1: LLAEasyButton?
+	@IBOutlet weak var button2: LLAEasyButton?
+	@IBOutlet weak var button3: LLAEasyButton?
 
 	
 	
@@ -68,7 +68,7 @@ class ViewController: UIViewController {
 	}
 
 	
-	@objc private func buttonAction(_ sender: LLASwiftyEasyButton)
+	@objc private func buttonAction(_ sender: LLAEasyButton)
 	{
 		guard let array: [String] = sender.appendObject as? [String] else
 		{

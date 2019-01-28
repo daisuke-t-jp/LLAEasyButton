@@ -1,9 +1,9 @@
 //
-//  LLASwiftyEasyButton.swift
-//  LLASwiftyEasyButton
+//  LLAEasyButton.swift
+//  LLAEasyButton
 //
 //  Created by Daisuke T on 2019/01/25.
-//  Copyright © 2019 LLASwiftyEasyButton. All rights reserved.
+//  Copyright © 2019 LLAEasyButton. All rights reserved.
 //
 
 
@@ -12,7 +12,7 @@ import Foundation
 
 
 
-public class LLASwiftyEasyButton : UIButton
+public class LLAEasyButton : UIButton
 {
 	// MARK: - Enum, Const
 	public enum Status

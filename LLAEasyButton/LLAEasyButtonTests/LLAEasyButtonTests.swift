@@ -1,15 +1,15 @@
 //
-//  LLASwiftyEasyButtonTests.swift
-//  LLASwiftyEasyButtonTests
+//  LLAEasyButtonTests.swift
+//  LLAEasyButtonTests
 //
 //  Created by Daisuke T on 2019/01/25.
-//  Copyright © 2019 LLASwiftyEasyButton. All rights reserved.
+//  Copyright © 2019 LLAEasyButton. All rights reserved.
 //
 
 import XCTest
-@testable import LLASwiftyEasyButton
+@testable import LLAEasyButton
 
-class LLASwiftyEasyButtonTests: XCTestCase {
+class LLAEasyButtonTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -21,7 +21,7 @@ class LLASwiftyEasyButtonTests: XCTestCase {
 
     func testLabel() {
 		_ = { () -> () in
-			let button = LLASwiftyEasyButton()
+			let button = LLAEasyButton()
 			XCTAssertNil(button.subviewLabel())
 
 			button.addSubview(UILabel())
@@ -31,7 +31,7 @@ class LLASwiftyEasyButtonTests: XCTestCase {
 
 	func testColor() {
 		_ = { () -> () in
-			let button = LLASwiftyEasyButton()
+			let button = LLAEasyButton()
 			button.colorMapEnable = [.normal: UIColor.yellow, .selected: UIColor.magenta]
 			button.colorMapDisable = UIColor.black
 

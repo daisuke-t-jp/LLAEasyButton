@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		029D25A821FA8E3A00A6480E /* LLASwiftyEasyButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029D259E21FA8E3900A6480E /* LLASwiftyEasyButton.framework */; };
-		029D25AD21FA8E3A00A6480E /* LLASwiftyEasyButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029D25AC21FA8E3A00A6480E /* LLASwiftyEasyButtonTests.swift */; };
-		029D25AF21FA8E3A00A6480E /* LLASwiftyEasyButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 029D25A121FA8E3900A6480E /* LLASwiftyEasyButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		029D25B921FA8ECA00A6480E /* LLASwiftyEasyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029D25B821FA8ECA00A6480E /* LLASwiftyEasyButton.swift */; };
+		029D25A821FA8E3A00A6480E /* LLAEasyButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029D259E21FA8E3900A6480E /* LLAEasyButton.framework */; };
+		029D25AD21FA8E3A00A6480E /* LLAEasyButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029D25AC21FA8E3A00A6480E /* LLAEasyButtonTests.swift */; };
+		029D25AF21FA8E3A00A6480E /* LLAEasyButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 029D25A121FA8E3900A6480E /* LLAEasyButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		029D25B921FA8ECA00A6480E /* LLAEasyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029D25B821FA8ECA00A6480E /* LLAEasyButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -19,18 +19,18 @@
 			containerPortal = 029D259521FA8E3900A6480E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 029D259D21FA8E3900A6480E;
-			remoteInfo = LLASwiftyPlainButton;
+			remoteInfo = LLAPlainButton;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		029D259E21FA8E3900A6480E /* LLASwiftyEasyButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LLASwiftyEasyButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		029D25A121FA8E3900A6480E /* LLASwiftyEasyButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLASwiftyEasyButton.h; sourceTree = "<group>"; };
+		029D259E21FA8E3900A6480E /* LLAEasyButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LLAEasyButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		029D25A121FA8E3900A6480E /* LLAEasyButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLAEasyButton.h; sourceTree = "<group>"; };
 		029D25A221FA8E3900A6480E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		029D25A721FA8E3A00A6480E /* LLASwiftyEasyButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLASwiftyEasyButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		029D25AC21FA8E3A00A6480E /* LLASwiftyEasyButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLASwiftyEasyButtonTests.swift; sourceTree = "<group>"; };
+		029D25A721FA8E3A00A6480E /* LLAEasyButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLAEasyButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		029D25AC21FA8E3A00A6480E /* LLAEasyButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLAEasyButtonTests.swift; sourceTree = "<group>"; };
 		029D25AE21FA8E3A00A6480E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		029D25B821FA8ECA00A6480E /* LLASwiftyEasyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLASwiftyEasyButton.swift; sourceTree = "<group>"; };
+		029D25B821FA8ECA00A6480E /* LLAEasyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLAEasyButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				029D25A821FA8E3A00A6480E /* LLASwiftyEasyButton.framework in Frameworks */,
+				029D25A821FA8E3A00A6480E /* LLAEasyButton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,8 +62,8 @@
 		029D259421FA8E3900A6480E = {
 			isa = PBXGroup;
 			children = (
-				029D25A021FA8E3900A6480E /* LLASwiftyEasyButton */,
-				029D25AB21FA8E3A00A6480E /* LLASwiftyEasyButtonTests */,
+				029D25A021FA8E3900A6480E /* LLAEasyButton */,
+				029D25AB21FA8E3A00A6480E /* LLAEasyButtonTests */,
 				029D259F21FA8E3900A6480E /* Products */,
 				026467A921FAE7460071D66B /* Frameworks */,
 			);
@@ -72,29 +72,29 @@
 		029D259F21FA8E3900A6480E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				029D259E21FA8E3900A6480E /* LLASwiftyEasyButton.framework */,
-				029D25A721FA8E3A00A6480E /* LLASwiftyEasyButtonTests.xctest */,
+				029D259E21FA8E3900A6480E /* LLAEasyButton.framework */,
+				029D25A721FA8E3A00A6480E /* LLAEasyButtonTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		029D25A021FA8E3900A6480E /* LLASwiftyEasyButton */ = {
+		029D25A021FA8E3900A6480E /* LLAEasyButton */ = {
 			isa = PBXGroup;
 			children = (
-				029D25A121FA8E3900A6480E /* LLASwiftyEasyButton.h */,
+				029D25A121FA8E3900A6480E /* LLAEasyButton.h */,
 				029D25A221FA8E3900A6480E /* Info.plist */,
-				029D25B821FA8ECA00A6480E /* LLASwiftyEasyButton.swift */,
+				029D25B821FA8ECA00A6480E /* LLAEasyButton.swift */,
 			);
-			path = LLASwiftyEasyButton;
+			path = LLAEasyButton;
 			sourceTree = "<group>";
 		};
-		029D25AB21FA8E3A00A6480E /* LLASwiftyEasyButtonTests */ = {
+		029D25AB21FA8E3A00A6480E /* LLAEasyButtonTests */ = {
 			isa = PBXGroup;
 			children = (
-				029D25AC21FA8E3A00A6480E /* LLASwiftyEasyButtonTests.swift */,
+				029D25AC21FA8E3A00A6480E /* LLAEasyButtonTests.swift */,
 				029D25AE21FA8E3A00A6480E /* Info.plist */,
 			);
-			path = LLASwiftyEasyButtonTests;
+			path = LLAEasyButtonTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,16 +104,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				029D25AF21FA8E3A00A6480E /* LLASwiftyEasyButton.h in Headers */,
+				029D25AF21FA8E3A00A6480E /* LLAEasyButton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		029D259D21FA8E3900A6480E /* LLASwiftyEasyButton */ = {
+		029D259D21FA8E3900A6480E /* LLAEasyButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 029D25B221FA8E3A00A6480E /* Build configuration list for PBXNativeTarget "LLASwiftyEasyButton" */;
+			buildConfigurationList = 029D25B221FA8E3A00A6480E /* Build configuration list for PBXNativeTarget "LLAEasyButton" */;
 			buildPhases = (
 				029D259921FA8E3900A6480E /* Headers */,
 				029D259A21FA8E3900A6480E /* Sources */,
@@ -124,14 +124,14 @@
 			);
 			dependencies = (
 			);
-			name = LLASwiftyEasyButton;
-			productName = LLASwiftyPlainButton;
-			productReference = 029D259E21FA8E3900A6480E /* LLASwiftyEasyButton.framework */;
+			name = LLAEasyButton;
+			productName = LLAPlainButton;
+			productReference = 029D259E21FA8E3900A6480E /* LLAEasyButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		029D25A621FA8E3A00A6480E /* LLASwiftyEasyButtonTests */ = {
+		029D25A621FA8E3A00A6480E /* LLAEasyButtonTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 029D25B521FA8E3A00A6480E /* Build configuration list for PBXNativeTarget "LLASwiftyEasyButtonTests" */;
+			buildConfigurationList = 029D25B521FA8E3A00A6480E /* Build configuration list for PBXNativeTarget "LLAEasyButtonTests" */;
 			buildPhases = (
 				029D25A321FA8E3A00A6480E /* Sources */,
 				029D25A421FA8E3A00A6480E /* Frameworks */,
@@ -142,9 +142,9 @@
 			dependencies = (
 				029D25AA21FA8E3A00A6480E /* PBXTargetDependency */,
 			);
-			name = LLASwiftyEasyButtonTests;
-			productName = LLASwiftyPlainButtonTests;
-			productReference = 029D25A721FA8E3A00A6480E /* LLASwiftyEasyButtonTests.xctest */;
+			name = LLAEasyButtonTests;
+			productName = LLAPlainButtonTests;
+			productReference = 029D25A721FA8E3A00A6480E /* LLAEasyButtonTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -155,7 +155,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = LLASwiftyPlainButton;
+				ORGANIZATIONNAME = LLAEasyButton;
 				TargetAttributes = {
 					029D259D21FA8E3900A6480E = {
 						CreatedOnToolsVersion = 10.1;
@@ -166,7 +166,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 029D259821FA8E3900A6480E /* Build configuration list for PBXProject "LLASwiftyEasyButton" */;
+			buildConfigurationList = 029D259821FA8E3900A6480E /* Build configuration list for PBXProject "LLAEasyButton" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -179,8 +179,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				029D259D21FA8E3900A6480E /* LLASwiftyEasyButton */,
-				029D25A621FA8E3A00A6480E /* LLASwiftyEasyButtonTests */,
+				029D259D21FA8E3900A6480E /* LLAEasyButton */,
+				029D25A621FA8E3A00A6480E /* LLAEasyButtonTests */,
 			);
 		};
 /* End PBXProject section */
@@ -207,7 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				029D25B921FA8ECA00A6480E /* LLASwiftyEasyButton.swift in Sources */,
+				029D25B921FA8ECA00A6480E /* LLAEasyButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				029D25AD21FA8E3A00A6480E /* LLASwiftyEasyButtonTests.swift in Sources */,
+				029D25AD21FA8E3A00A6480E /* LLAEasyButtonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +224,7 @@
 /* Begin PBXTargetDependency section */
 		029D25AA21FA8E3A00A6480E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 029D259D21FA8E3900A6480E /* LLASwiftyEasyButton */;
+			target = 029D259D21FA8E3900A6480E /* LLAEasyButton */;
 			targetProxy = 029D25A921FA8E3A00A6480E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -362,14 +362,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = LLASwiftyEasyButton/Info.plist;
+				INFOPLIST_FILE = LLAEasyButton/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.LLASwiftyEasyButton.LLASwiftyEasyButton;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LLAEasyButton.LLAEasyButton;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -388,14 +388,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = LLASwiftyEasyButton/Info.plist;
+				INFOPLIST_FILE = LLAEasyButton/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.LLASwiftyEasyButton.LLASwiftyEasyButton;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LLAEasyButton.LLAEasyButton;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -408,13 +408,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LLASwiftyEasyButtonTests/Info.plist;
+				INFOPLIST_FILE = LLAEasyButtonTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.LLASwiftyEasyButton.LLASwiftyEasyButtonTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LLAEasyButton.LLAEasyButtonTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -426,13 +426,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LLASwiftyEasyButtonTests/Info.plist;
+				INFOPLIST_FILE = LLAEasyButtonTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.LLASwiftyEasyButton.LLASwiftyEasyButtonTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LLAEasyButton.LLAEasyButtonTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -442,7 +442,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		029D259821FA8E3900A6480E /* Build configuration list for PBXProject "LLASwiftyEasyButton" */ = {
+		029D259821FA8E3900A6480E /* Build configuration list for PBXProject "LLAEasyButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				029D25B021FA8E3A00A6480E /* Debug */,
@@ -451,7 +451,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		029D25B221FA8E3A00A6480E /* Build configuration list for PBXNativeTarget "LLASwiftyEasyButton" */ = {
+		029D25B221FA8E3A00A6480E /* Build configuration list for PBXNativeTarget "LLAEasyButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				029D25B321FA8E3A00A6480E /* Debug */,
@@ -460,7 +460,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		029D25B521FA8E3A00A6480E /* Build configuration list for PBXNativeTarget "LLASwiftyEasyButtonTests" */ = {
+		029D25B521FA8E3A00A6480E /* Build configuration list for PBXNativeTarget "LLAEasyButtonTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				029D25B621FA8E3A00A6480E /* Debug */,
