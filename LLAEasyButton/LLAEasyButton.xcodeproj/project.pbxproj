@@ -19,7 +19,7 @@
 			containerPortal = 029D259521FA8E3900A6480E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 029D259D21FA8E3900A6480E;
-			remoteInfo = LLAPlainButton;
+			remoteInfo = LLAEasyButton;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -125,7 +125,7 @@
 			dependencies = (
 			);
 			name = LLAEasyButton;
-			productName = LLAPlainButton;
+			productName = LLAEasyButton;
 			productReference = 029D259E21FA8E3900A6480E /* LLAEasyButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
@@ -143,7 +143,7 @@
 				029D25AA21FA8E3A00A6480E /* PBXTargetDependency */,
 			);
 			name = LLAEasyButtonTests;
-			productName = LLAPlainButtonTests;
+			productName = LLAEasyButtonTests;
 			productReference = 029D25A721FA8E3A00A6480E /* LLAEasyButtonTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
