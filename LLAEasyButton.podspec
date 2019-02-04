@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "LLAEasyButton"
-s.version      = "1.0.4"
+s.version      = "1.0.5"
 s.summary      = "LLAEasyButton is class for easy use of UIButton."
 s.homepage     = "https://github.com/daisuke-t-jp/LLAEasyButton"
 s.screenshots  = "https://raw.githubusercontent.com/daisuke-t-jp/LLAEasyButton/master/doc/header.png"
