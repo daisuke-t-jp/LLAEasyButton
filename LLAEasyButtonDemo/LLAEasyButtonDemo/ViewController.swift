@@ -48,8 +48,7 @@ class ViewController: UIViewController {
 	}
 
 	
-	@objc private func switchAction(_ sender: UISwitch)
-	{
+	@objc private func switchAction(_ sender: UISwitch) {
 		let alertTitle = [false:"to disable", true:"to enable"][sender.isOn]
 		let alert = UIAlertController(title: alertTitle,
 									  message: "",
@@ -68,10 +67,8 @@ class ViewController: UIViewController {
 	}
 
 	
-	@objc private func buttonAction(_ sender: LLAEasyButton)
-	{
-		guard let array: [String] = sender.appendObject as? [String] else
-		{
+	@objc private func buttonAction(_ sender: LLAEasyButton) {
+		guard let array: [String] = sender.appendObject as? [String] else {
 			return
 		}
 		
