@@ -9,7 +9,7 @@
 <img src="https://github.com/daisuke-t-jp/LLAEasyButton/blob/master/doc/demo.gif" width="250"></br>
 
 
-# Concept
+# What is this?
 
 *LLAEasyButton* is class for easy use of UIButton.  
 The class can set normal/selected color.
@@ -22,7 +22,6 @@ Also easy use button's label.
 
 ### CocoaPods
 ```
-platform :ios, '10.0'
 use_frameworks!
 
 target 'target' do
@@ -36,14 +35,14 @@ end
 <img src="https://github.com/daisuke-t-jp/LLAEasyButton/blob/master/doc/IB-setup0.png" width="600"></br>
 <img src="https://github.com/daisuke-t-jp/LLAEasyButton/blob/master/doc/IB-setup1.png" width="600"></br>
 Open Interface Builder.  
-Select UIView and put to view.  
+Select **UIView** and put to superview.  
 (**Not UIButton**)
 
 ### 2. Change class
 <img src="https://github.com/daisuke-t-jp/LLAEasyButton/blob/master/doc/IB-setup2.png" width="600"></br>
 Rename UIView’s class name to *LLAEasyButton*.  
 
-### 3. Add Label (If you need)
+### 3. Add label (If you need)
 <img src="https://github.com/daisuke-t-jp/LLAEasyButton/blob/master/doc/IB-setup3.png" width="600"></br>
 <img src="https://github.com/daisuke-t-jp/LLAEasyButton/blob/master/doc/IB-setup4.png" width="600"></br>
 If you need to label.  
