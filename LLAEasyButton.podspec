@@ -32,7 +32,7 @@ Pod::Spec.new do |spec|
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.source_files  = "LLAEasyButton/LLAEasyButton/*.{h,swift}"
+  spec.source_files  = "LLAEasyButton/LLAEasyButton/*.{swift}"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
