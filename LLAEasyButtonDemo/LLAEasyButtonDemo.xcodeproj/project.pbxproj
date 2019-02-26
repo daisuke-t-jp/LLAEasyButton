@@ -183,7 +183,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-LLAEasyButtonDemo/Pods-LLAEasyButtonDemo-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-LLAEasyButtonDemo/Pods-LLAEasyButtonDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LLAEasyButton/LLAEasyButton.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -194,7 +194,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLAEasyButtonDemo/Pods-LLAEasyButtonDemo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LLAEasyButtonDemo/Pods-LLAEasyButtonDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
