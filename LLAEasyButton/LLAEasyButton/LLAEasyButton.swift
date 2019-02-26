@@ -12,7 +12,7 @@ import Foundation
 
 
 
-public class LLAEasyButton : UIButton {
+public class LLAEasyButton: UIButton {
 	// MARK: - Enum, Const
 	public enum Status {
 		case normal
@@ -29,7 +29,7 @@ public class LLAEasyButton : UIButton {
 	
 	
 	// MARK: - Property
-	public var appendObject: Any? = nil
+	public var appendObject: Any?
 	public var colorMapEnable: [Status: UIColor] = defaultColorMapEnable {
 		didSet {
 			if isEnabled {
@@ -110,8 +110,7 @@ public class LLAEasyButton : UIButton {
 		didSet {
 			if isEnabled {
 				self.colorMap = colorMapEnable
-			}
-			else {
+			} else {
 				self.colorMap = [.normal: colorMapDisable, .selected: colorMapDisable]
 			}
 		}
@@ -121,7 +120,7 @@ public class LLAEasyButton : UIButton {
 	
 	// MARK: Label
 	public func subviewLabel() -> UILabel? {
-		var res: UILabel? = nil
+		var res: UILabel?
 		
 		for subview in subviews {
 
