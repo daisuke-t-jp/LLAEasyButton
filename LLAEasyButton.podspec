@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.name         = "LLAEasyButton"
-  spec.version      = "1.0.6"
+  spec.version      = "1.0.7"
   spec.summary      = "LLAEasyButton is class for easy use of UIButton."
 
   spec.description  = <<-DESC
