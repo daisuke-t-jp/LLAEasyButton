@@ -6,11 +6,7 @@
 //  Copyright © 2019 LLAEasyButton. All rights reserved.
 //
 
-
-
 import Foundation
-
-
 
 public class LLAEasyButton: UIButton {
   // MARK: - Enum, Const
@@ -61,7 +57,7 @@ public class LLAEasyButton: UIButton {
     guard let label = subviewLabel() else {
       return
     }
-
+    
     label.textColor = UIColor.white
   }
   
@@ -123,7 +119,7 @@ public class LLAEasyButton: UIButton {
     var res: UILabel?
     
     for subview in subviews {
-
+      
       guard subview is UILabel else {
         continue
       }
