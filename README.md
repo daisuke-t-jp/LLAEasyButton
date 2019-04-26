@@ -64,13 +64,13 @@ Interface Builder object connet to IBOutlet.
 ### 1. Set normal/selected color on enable state
 ``` swift
 button?.colorMapEnable = [.normal: UIColor.init(red: 239/255, green: 154/255, blue: 154/255, alpha: 1.0),
-                        .selected: UIColor.init(red: 244/255, green: 67/255, blue: 54/255, alpha: 1.0)]
+  .selected: UIColor.init(red: 244/255, green: 67/255, blue: 54/255, alpha: 1.0)]
 ```
 
 ### 2. Set normal/selected color on disable state
 ``` swift
 button?.colorMapDisable = [.normal: UIColor.init(red: 239/255, green: 154/255, blue: 154/255, alpha: 1.0),
-                        .selected: UIColor.init(red: 244/255, green: 67/255, blue: 54/255, alpha: 1.0)]
+  .selected: UIColor.init(red: 244/255, green: 67/255, blue: 54/255, alpha: 1.0)]
 ```
 
 ### 3. Set button's label text

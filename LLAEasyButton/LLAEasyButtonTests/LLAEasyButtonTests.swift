@@ -20,47 +20,47 @@ class LLAEasyButtonTests: XCTestCase {
     }
 
     func testLabel() {
-		_ = { () -> () in
-			let button = LLAEasyButton()
-			XCTAssertNil(button.subviewLabel())
+    _ = { () -> () in
+      let button = LLAEasyButton()
+      XCTAssertNil(button.subviewLabel())
 
-			button.addSubview(UILabel())
-			XCTAssertNotNil(button.subviewLabel())
-		}()
-	}
+      button.addSubview(UILabel())
+      XCTAssertNotNil(button.subviewLabel())
+    }()
+  }
 
-	func testColor() {
-		_ = { () -> () in
-			let button = LLAEasyButton()
-			button.colorMapEnable = [.normal: UIColor.yellow, .selected: UIColor.magenta]
-			button.colorMapDisable = UIColor.black
+  func testColor() {
+    _ = { () -> () in
+      let button = LLAEasyButton()
+      button.colorMapEnable = [.normal: UIColor.yellow, .selected: UIColor.magenta]
+      button.colorMapDisable = UIColor.black
 
-			button.isEnabled = true
-			button.isSelected = true
-			XCTAssertEqual(button.backgroundColor, UIColor.magenta)
+      button.isEnabled = true
+      button.isSelected = true
+      XCTAssertEqual(button.backgroundColor, UIColor.magenta)
 
-			button.isEnabled = true
-			button.isSelected = false
-			XCTAssertEqual(button.backgroundColor, UIColor.yellow)
+      button.isEnabled = true
+      button.isSelected = false
+      XCTAssertEqual(button.backgroundColor, UIColor.yellow)
 
-			button.isEnabled = false
-			button.isSelected = true
-			XCTAssertEqual(button.backgroundColor, UIColor.black)
+      button.isEnabled = false
+      button.isSelected = true
+      XCTAssertEqual(button.backgroundColor, UIColor.black)
 
-			button.isEnabled = false
-			button.isSelected = false
-			XCTAssertEqual(button.backgroundColor, UIColor.black)
-		}()
-	}
+      button.isEnabled = false
+      button.isSelected = false
+      XCTAssertEqual(button.backgroundColor, UIColor.black)
+    }()
+  }
 
-	
-	/*
+  
+  /*
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
             // Put the code you want to measure the time of here.
         }
     }
-	*/
+  */
 
 }
